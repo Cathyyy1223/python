@@ -1,0 +1,11 @@
+# print(1 + 2 + 3)
+# print(1 * 2 - 3 / 4)
+# print("hello world")
+# pi = 3.14
+# print(pi)
+# old = input('how old are you?')
+# print('i am' + old)
+h = int(input('身高?'))
+w = int(input('體重?'))
+bmi = w / (h**2)
+print('BMI=', BMI)
