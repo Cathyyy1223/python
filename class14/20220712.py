@@ -40,8 +40,8 @@ tick = 0  # 計數器
 max_tick = 20
 pos = pos6[0]  # 外面記錄圓的位置
 gophers = pygame.image.load('Gophers150.png')  # 地鼠圖片
-gophers2= pygame.image.load('Gophers2_150.png')  # 地鼠圖片
-hitsur=gophers
+gophers2 = pygame.image.load('Gophers2_150.png')  # 地鼠圖片
+hitsur = gophers
 
 
 def gophers_update(win):
@@ -147,7 +147,7 @@ while True:
                 if times < times_max:
                     tick = max_tick + 1  # 立即變換位置
                     score += 1
-                    hitsur=gophers2
+                    hitsur = gophers2
     ######事件偵測######
 
     # sur.fill(BLACK)  # 用黑色覆蓋前一幀的畫面，實現刷新
@@ -165,6 +165,5 @@ while True:
     if (hammer == ham1):
         time.sleep(0.1)
         hammer = ham2
+        hitsur = gophers
     #####更新畫面#####
-
-
